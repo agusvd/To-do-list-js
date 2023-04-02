@@ -1,0 +1,93 @@
+* {
+    margin: 10px;
+}
+body {
+    background: #FFFBEB;
+}
+.container {
+    border: 4px white solid;
+    border-radius: 12px;
+    background-color: #F8CBA6;
+    display: grid;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+}
+.container h1 {
+    text-align: center;
+    color: #7882A4;
+    font-size: 50px;
+}
+
+#todo {
+    width: auto;
+    text-align: center;
+    font-size: 24px;
+    justify-content: center;
+}
+#escribir-lista {
+    background: transparent;
+    color: #ECF9FF;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+#escibir-lista::placeholder {
+    color: #ECF9FF;
+}
+
+#agregar-lista {
+    border: none;
+    background-color: transparent;
+    user-select: none;
+}
+
+
+form {
+    background-color: #7882A4;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+
+#lista {
+    background-color: #ECF9FF;
+    color: #7882A4;
+    border-radius: 50px;
+    list-style: decimal;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+#titulo-lista {
+    color: #fff;
+    text-align: center;
+}
+
+.fa-square-check {
+    color: #F8CBA6;
+}
+.fa-square {
+    color: #7882A4;
+}
+
+.fa-trash-alt {
+    color: #FC2947;
+}
+.boton-completado {
+    background: transparent;
+    border: none;
+    text-align: center;
+    display: inline;
+    font-size: 24px;
+  }
+
+.boton-eliminar {
+    background: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 24px;
+}
+  
